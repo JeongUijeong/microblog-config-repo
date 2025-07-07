@@ -9,6 +9,7 @@ spring:
         git:
           uri: https://github.com/JeongUijeong/microblog-config-repo.git
           default-label: main
+          timeout: 5 # 연결 대기 5초
           clone-on-start: true
           search-paths: .
           username: ${GIT_USERNAME}
