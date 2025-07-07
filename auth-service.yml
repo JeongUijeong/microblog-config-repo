@@ -2,7 +2,7 @@ spring:
   config:
     import: optional:configserver:http://config-server:8888
   application:
-    name: auth-server
+    name: auth-service
   cloud:
     config:
       server:
